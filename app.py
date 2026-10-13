@@ -2,7 +2,7 @@
 
 st.set_page_config(
     page_title="AI Customer Segmentation & Marketing Analytics",
-    page_icon="ðŸ“Š",
+    page_icon="📊",
     layout="wide",
 )
 
@@ -166,20 +166,20 @@ st.markdown(
 overview_page = st.Page(
     "dashboard/overview.py",
     title="Executive Overview",
-    icon="ðŸ“Š",
+    icon=":material/dashboard:",
     default=True,
 )
 
 segmentation_page = st.Page(
     "dashboard/pages/1_Customer_Segmentation.py",
     title="Customer Segmentation",
-    icon="ðŸ‘¥",
+    icon=":material/groups:",
 )
 
 rfm_page = st.Page(
     "dashboard/pages/2_RFM_Customer_Value.py",
     title="RFM & Customer Value",
-    icon="ðŸ’°",
+    icon=":material/payments:",
 )
 
 navigation = st.navigation(
