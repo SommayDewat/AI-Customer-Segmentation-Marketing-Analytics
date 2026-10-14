@@ -24,6 +24,11 @@ This project analyzes retail transaction data to derive customer-level **Recency
 
 The project demonstrates an end-to-end workflow covering data preparation, feature engineering, unsupervised machine learning, model evaluation, and business intelligence visualization.
 
+## 🚀 Live Demo
+
+[https://customer-segmentation-marketing-analytics-dashboard.streamlit.app/](https://customer-segmentation-marketing-analytics-dashboard.streamlit.app/)
+
+
 ## 🎯 Project Objectives
 
 - Analyze customer purchasing behavior using transaction data.
